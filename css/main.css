@@ -1,8 +1,17 @@
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+@import url('https://fonts.googleapis.com/css2?family=Crete+Round:ital@0;1&display=swap');
 
 body {
   background-color: #fff;
   height: 1000px;
+}
+
+.orange-color {
+  color: #ff6b00;
+}
+
+.crete-font {
+    font-family: "Crete Round", serif;
 }
 
 /* navbar section  */
@@ -13,4 +22,20 @@ nav {
 
 nav a {
   color: #fff;
+}
+
+/* landing page section  */
+.landing {
+  height: calc(100vh - 72px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.landing .test {
+    position: absolute;
+    right: -250%;
+    bottom: 70%;
+    transform: translate(-50%, 20%);
+
 }
