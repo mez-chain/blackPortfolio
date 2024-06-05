@@ -11,7 +11,7 @@ body {
 }
 
 .crete-font {
-    font-family: "Crete Round", serif;
+  font-family: "Crete Round", serif;
 }
 
 /* navbar section  */
@@ -33,9 +33,8 @@ nav a {
 }
 
 .landing .test {
-    position: absolute;
-    right: -250%;
-    bottom: 70%;
-    transform: translate(-50%, 20%);
-
+  position: absolute;
+  right: -250%;
+  bottom: 70%;
+  transform: translate(-50%, 20%);
 }
