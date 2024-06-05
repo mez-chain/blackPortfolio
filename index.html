@@ -7,7 +7,33 @@
     <title>My Portfolio</title>
 </head>
 <body>
-    <h1 class="display-2 text-primary">Hello World!</h1>
+    <!-- navbar section -->
+    <nav class="navbar navbar-expand-md sticky-top" data-bs-theme="dark">
+        <div class="container-md align-items-baseline">
+          <a class="navbar-brand text-white" href="#">
+            <span class="h3 text-white fw-bold">My Logo</span>
+          </a>
+          <button class="navbar-toggler shadow-none" type="button" data-bs-toggle="collapse" data-bs-target="#main-nav" aria-controls="main-nav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon text-white"></span>
+          </button>
+          <div class="collapse navbar-collapse flex-grow-0" id="main-nav">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 align-items-baseline">
+              <li class="nav-item h6 me-3">
+                <a class="nav-link text-white" aria-current="page" href="#">Portfolio</a>
+              </li>
+              <li class="nav-item h6 me-3">
+                <a class="nav-link text-white" aria-current="page" href="#">About</a>
+              </li>
+              <li class="nav-item h6 me-3">
+                <a class="nav-link text-white" aria-current="page" href="#">Contact</a>
+              </li>
+              <li class="nav-item h6 d-none d-md-block">
+                <a class="nav-link text-white" aria-current="page" href="#"><i class="bi bi-envelope"></i></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
