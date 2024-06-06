@@ -43,6 +43,7 @@ nav a {
   transform: translate(-50%, 20%);
 }
 
+/* works section  */
 
 .main-title::after {
   content: '';
