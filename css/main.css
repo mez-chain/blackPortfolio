@@ -10,6 +10,10 @@ body {
   color: #ff6b00;
 }
 
+.orange-bg {
+  background-color: #ff6b00;
+}
+
 .crete-font {
   font-family: "Crete Round", serif;
 }
@@ -37,4 +41,16 @@ nav a {
   right: -250%;
   bottom: 70%;
   transform: translate(-50%, 20%);
+}
+
+
+.main-title::after {
+  content: '';
+  width: 90%;
+  height: 2px;
+  background-color: #212121;
+  position: absolute;
+  bottom: -20px;
+  left: 50%;
+  transform: translateX(-50%);
 }
