@@ -86,8 +86,7 @@ nav a {
     display: none;
   }
 
-  .hover-div:hover  #button {
+  .hover-div:hover #button {
     display: block;
   }
-
 }
