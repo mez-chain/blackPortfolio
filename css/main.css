@@ -76,3 +76,18 @@ nav a {
   left: 50%;
   transform: translateX(-50%);
 }
+
+@media (min-width: 768px) {
+  .hover-div:hover .target-div {
+    display: none;
+  }
+  
+  #button {
+    display: none;
+  }
+
+  .hover-div:hover  #button {
+    display: block;
+  }
+
+}
