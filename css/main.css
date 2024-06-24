@@ -5,7 +5,6 @@
 
 body {
   background-color: #fff;
-  height: 3000px;
 }
 
 .orange-color {
@@ -81,24 +80,31 @@ nav a {
   margin: 150px 0;
 }
 
+.aboutme h1 {
+  font-size: 90px;
+}
+
 .aboutme .bg-dark {
-  padding: 150px 0;
+  padding-top: 150px;
 }
 
-.aboutme .test {
-  /* position: absolute;
-  left: 30%;
-  bottom: 10%;
-  transform: translate(10%, 20%); */
+.aboutme .first-part {
+  margin-bottom: 150px;
 }
 
-.first-part::after {
+.aboutme .trans-2 {
+  right: -17%;
+  bottom: -50%;
+  transform: translate(-50%, 20%);
+}
+
+.aboutme .first-part::after {
   content: '';
   width: 90%;
-  height: 2px;
-  background-color: #212121;
+  height: 1px;
+  background-color: #fff;
   position: absolute;
-  bottom: -40px;
+  bottom: -70%;
   left: 50%;
   transform: translateX(-50%);
 }
@@ -107,6 +113,37 @@ nav a {
   background-color: transparent !important;
   border: none;
   color: #fff;
+}
+
+.second-part .list-group-item {
+  position: relative;
+  padding-left: 25px;
+}
+
+.second-part .list-group-item::before {
+  content: '';
+  position: absolute;
+  top: 25px;
+  transform: translateY(-50%);
+  width: 15px;
+  height: 15px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.second-part .list-group-item.item-1::before {
+  background-image: url('/images/diamand.png');
+    left: 20%;
+}
+
+.second-part .list-group-item.item-2::before {
+  background-image: url('/images/rectangle.png');
+    left: 15%;
+}
+
+.second-part .list-group-item.item-3::before {
+  background-image: url('/images/circle.png');
+    left: 30%;
 }
 
 @media (min-width: 768px) {
