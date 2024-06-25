@@ -161,7 +161,7 @@ nav a {
     bottom: 25%;
     transform: translate(-50%, 20%);
   }
-  
+
   .aboutme .first-part {
     margin: 0;
   }
@@ -173,9 +173,8 @@ nav a {
   .second-part .list-group-item.item-1::before {
     left: 0%;
   }
-  
+
   .second-part .list-group-item.item-2::before {
     left: 0%;
   }
-
 }
