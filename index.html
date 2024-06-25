@@ -76,9 +76,11 @@
 
       <div class="row mb-5 align-items-start">
         <div class="col mt-5">
-          <div class="card border-0 mt-5 flex-md-row">
-            <img src="/images/work.png" class="card-img-top" alt="work1">
-            <div class="card-body">
+          <div class="card border-0 mt-5 flex-lg-row">
+            <div class="col-lg-6">
+              <img src="/images/work.png" class="card-img-top" alt="work1">
+            </div>
+            <div class="card-body col-lg-6">
               <h5 class="card-title crete-font display-5">Multi-Post Stories</h5>
               <p class="card-text">A daily selection of privately personalized reads; no accounts or sign-ups required.
                 has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a
@@ -207,22 +209,23 @@
   <!-- aboutme section  -->
     <section class="aboutme">
       <div class="bg-dark pb-5">
-        <div class="container first-part d-flex flex-column px-0 position-relative">
-          <div class="px-4">
+        <div class="container-fluid pe-0 first-part d-flex flex-column px-0 position-relative">
+          <div class="px-4 col-md-6">
             <h1 class="orange-color crete-font">About me</h1>
             <p class="text-white h5 inter-font fw-light my-4">Hello I’m a software developer! I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hesitate to contact me.</p>
             <a href="#" class="btn btn-lg icon-link-hover text-white orange-bg fw-semibold rounded-0">
               Get my resume
             </a>
           </div>
-          <div class="position-absolute align-self-end trans-2">
-            <img src="/images/aboutme-bg.png" alt="landing image" class="test img-fluid">
+          <div class="position-absolute align-self-end trans-2 col-md-6">
+            <img src="/images/aboutme-bg.png" alt="landing image" class="img-fluid d-md-none">
+            <img src="/images/aboutme.png" alt="landing image" class="img-fluid d-none d-md-flex">
           </div>  
         </div>
 
-        <div class="container second-part bg-dark d-flex justify-content-center align-items-center inter-font">
-          <ul class="list-group ">
-            <li class="list-group-item item-1">
+        <div class="container-fluid second-part bg-dark d-flex justify-content-center inter-font">
+          <ul class="list-group d-flex flex-column flex-md-row">
+            <li class="list-group-item item-1 mx-md-5">
               <div class="ms-2 me-auto text-center">
                 <div class="fw-bold fs-4 mb-3">Language</div>
                 <ul class="list-group">
@@ -233,7 +236,7 @@
                 </ul>
               </div>
             </li>
-            <li class="list-group-item item-2">
+            <li class="list-group-item item-2 me-md-5">
               <div class="ms-2 me-auto text-center">
                 <div class="fw-bold fs-4 mb-3">Frameworks</div>
                 <ul class="list-group">
@@ -241,6 +244,7 @@
                   <li class="list-group-item">Ruby on Rails</li>
                   <li class="list-group-item">RSpec</li>
                   <li class="list-group-item">Capybara</li>
+                  <li class="list-group-item">Selenium</li>
                 </ul>
               </div>
             </li>
