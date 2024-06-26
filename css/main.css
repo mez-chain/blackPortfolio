@@ -147,6 +147,18 @@ nav a {
   height: 100px;
 }
 
+footer .social-footer::after {
+  content: '';
+  width: 140px;
+  height: 5px;
+  border-radius: 2px;
+  background-color: #212121;
+  position: absolute;
+  bottom: -40px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
 @media (min-width: 768px) {
   .hover-div:hover .target-div {
     display: none;
@@ -180,5 +192,9 @@ nav a {
 
   .second-part .list-group-item.item-2::before {
     left: 0%;
+  }
+
+  footer .social-footer::after {
+    display: none;
   }
 }
