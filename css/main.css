@@ -163,6 +163,10 @@ footer .social-footer::after {
 }
 
 @media (min-width: 768px) {
+  .navbar-nav {
+    height: auto;
+  }
+
   .hover-div:hover .target-div {
     display: none;
   }
@@ -186,6 +190,10 @@ footer .social-footer::after {
 
   .aboutme .first-part::after {
     bottom: -20%;
+  }
+
+  .second-part .skills-list {
+    width: 100%;
   }
 
   .second-part .list-group-item.item-1::before {
